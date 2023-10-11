@@ -1,0 +1,274 @@
+/* principais */
+:root{
+    /* --main-color:#d3ad7f; */
+    --main-color:#0f0e0d;
+    --black:var(--black)
+}
+
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: rgb(17, 14, 14);
+    /* background: white; */
+    border-radius: 5rem;
+}
+
+body{
+    background: rgba(228, 177, 127, 0.671);
+    /* background: rgba(201, 151, 102, 0.671); */
+    /* background: rgba(0, 0, 0, 0.671); */
+}
+section{
+    padding: 2rem 7%;
+}
+/* principais */
+/* header principal */
+.header{
+    background: rgb(240, 215, 189);
+    /* background: peru; */
+    /* background: rgb(15, 13, 10); */
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+/* header principal */
+/* --------------------------------------- */
+/* logo café */
+.header .logo{
+    /* height: 10rem; */
+    display: flex;
+    align-items: center;
+    /* color: var(--tex-color); */
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+.logo i{
+    /* color: var(--main-color); */
+    color: black;
+    font-weight: bolder;
+    font-size: 32px;
+    margin-right: 5px;
+}
+/* logo café */
+/* ----------------------------------------------- */
+/* páginas */
+ .header .navbar a{
+    margin: 0 1rem;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    color: rgb(12, 11, 10);
+    font-weight: bolder;
+ } 
+.header .navbar a:hover{
+     color: rgb(163, 131, 88); 
+    border-bottom: .1rem solid  rgb(163, 131, 88); 
+    padding-bottom: .5rem;
+} 
+/* páginas */
+/* --------------------------------------------------------------- */
+/* icones */
+/* icones da pagina principal */
+.icones{
+    display: flex;
+    align-items: center;
+}
+.icones i{
+    /* color: aliceblue; */
+    color: #0f0e0d;
+    font-weight: bolder;
+    margin-right: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.icones i:hover{
+    transform: translateY(-5px);
+    color:  rgb(107, 92, 71); 
+}
+
+/* home  arrumar */
+.home{
+    min-height: 100vh;
+    min-width: 50vw;
+    display: flex;
+    align-items: center;
+    /* background:url(../img/grões_de_café.png)no-repeat; */
+    background:url(../img/coffee_rorozoa_3_07.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    max-width: 60rem;
+}
+.home .content h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.home .content p{
+    font-size: 2rem;
+    font-weight:bolder;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: rgb(0, 0, 0);
+}
+.home .content .btn{
+    font-size: 2rem;
+    color: #0f0e0d;
+
+}
+/* botão entrar */
+
+.btn{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 15px 70px;
+    font-size: 16px;
+    font-weight: bolder;
+    background: transparent;
+    border: solid 2px black;
+    /* transition: all.55 ease; */
+    color: black;
+}
+.btn:hover{
+    background: var(--tex-color);
+    border: 2px solid black;
+    color: #000;
+    font-weight: bolder;
+}
+
+/* home  arrumar */
+/* menu - produtos */
+/* .menu .box-contanier{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    border-radius: 20px;
+}
+.menu .box-contanier .box{
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+    border-radius: 20px;
+}
+.menu .box-contanier .btn{
+    background-color: chocolate;
+    border-radius: 10px;
+}
+.menu .box-contanier .box img{
+    height: 10rem;
+}
+.menu .box-contanier .box h3{
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.menu .box-contanier .box .price{
+    color: aliceblue;
+    font-size: 2.5rem;
+    padding: 5rem 0;
+}
+.menu .box-contanier .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+.menu .box-contanier .box:hover{
+    background: white;
+}
+.menu .box-contanier .box:hover > *{
+    color: var(--black);
+}*/
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 1.5rem 2rem;
+    }
+    section{
+        padding: 2rem;
+    }
+}
+@media (max-width:768px){
+    #menu-btn{
+        display: inline-block;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 100%;right: -100%;
+        background: white;
+        width: 30rem;
+        height: calc(100vh - 9.5rem);
+    }
+    .header .navbar .active{
+        right: 0;
+    }
+    .header .navbar a{
+        color: var(--black);
+        display: block;
+        margin: 1.5rem;
+        padding: 5rem;
+        font-size: 2rem;
+    }
+    .header .search-form{
+        width: 90%;
+        right: 2rem;
+    }
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+    .home .content h3{
+        font-size: 4.5rem;
+    }
+    .home .content p{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    
+}

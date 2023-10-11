@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color:rgba(228, 177, 127, 0.671);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100hv;
+    padding: 90px;
+}
+ a.btn-voltar{
+    background: transparent;
+    border: none;
+    position: absolute;
+    padding: 20px;
+}
+
+
+.cadastro{
+    position: relative;
+    width: 450px;
+    height: 490px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 20px;
+    backdrop-filter: bluer(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.cadastro .caixa_login{
+    width: 100%;
+    padding: 40px;
+}
+.cadastro .fechar-tela-x{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background:transparent;
+    font-size: 2rem;
+    color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.caixa_login h2{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
+.caixa-input{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+.caixa-input label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform:translateY(-50%);
+    font-size: 1rem;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+.caixa-input input:focus~label,
+.caixa-input input:valid~label{
+    top: -5px;
+}
+
+.caixa-input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+.caixa-input .iconnes{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2rem;
+    color: black;
+    line-height: 57px;
+}
+
+.aceitar-politica{
+    font-size: .9rem;
+    color: black;
+    font-weight: 500;
+    margin: -15px 0 15px;
+}
+.aceitar-politica label input{
+    accent-color: black;
+    margin: 3px;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.btn-voltar{
+    position:relative;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 450px;
+    padding-left: 10px;
+    background:transparent;
+    font-size: 2rem;
+    color: black;
+    display:flex;
+    cursor: pointer;
+    border: none;
+}
+
+/* .login-section .login__form .last-row .underline {
+    border: 1px solid transparent;
+    color: #1e331f;
+    transition: color .4s;
+} */
