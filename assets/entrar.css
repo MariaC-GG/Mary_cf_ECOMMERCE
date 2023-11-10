@@ -27,7 +27,7 @@ body{
     position: relative;
     width: 450px;
     height: 490px;
-    background: transparent;
+    background: rgba(202, 147, 92, 0.671);
     border: 2px solid black;
     border-radius: 20px;
     backdrop-filter: bluer(20px);

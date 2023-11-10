@@ -45,9 +45,7 @@ section{
 /* principais */
 /* header principal */
 .header{
-    background: rgb(240, 215, 189);
-    /* background: peru; */
-    /* background: rgb(15, 13, 10); */
+    background: rgb(143, 108, 70);
     background: transparent;
     display: flex;
     align-items: center;
@@ -88,8 +86,8 @@ section{
     font-weight: bolder;
  } 
 .header .navbar a:hover{
-     color: rgb(163, 131, 88); 
-    border-bottom: .1rem solid  rgb(163, 131, 88); 
+     color: rgb(77, 62, 44); 
+    border-bottom: .1rem solid  rgb(114, 89, 56); 
     padding-bottom: .5rem;
 } 
 /* páginas */
@@ -135,14 +133,14 @@ section{
     font-weight: bolder;
 }
 .home .content p{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight:bolder;
     line-height: 1.8;
     padding: 1rem 0;
     color: rgb(0, 0, 0);
 }
 .home .content .btn{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #0f0e0d;
 
 }

@@ -30,14 +30,12 @@ html::-webkit-scrollbar-track{
 }
 html::-webkit-scrollbar-thumb{
     background: rgb(17, 14, 14);
-    /* background: white; */
     border-radius: 5rem;
 }
 
 body{
     background: rgba(228, 177, 127, 0.671);
-    /* background: rgba(201, 151, 102, 0.671); */
-    /* background: rgba(0, 0, 0, 0.671); */
+
 }
 section{
     padding: 2rem 7%;
@@ -47,9 +45,6 @@ section{
 /* header principal */
 .header{
     background: rgb(240, 215, 189);
-    /* background: peru; */
-    /* background: rgb(15, 13, 10); */
-    /* background: transparent; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,7 +54,6 @@ section{
     top: 0; left: 0; right: 0;
     z-index: 1000;
 }
-/* header principal */
 /* -------------------------------------------------------- */
 /* logo café */
 .header .logo{
@@ -78,7 +72,6 @@ section{
     font-size: 32px;
     margin-right: 5px;
 }
-/* logo café */
 /* --------------------------------------------------------- */
 /* páginas */
  .header .navbar a{
@@ -90,15 +83,13 @@ section{
  } 
 .header .navbar a:hover{
     /* color: var(--main-color); */
-     color: rgb(163, 131, 88); 
+     color: rgb(184, 152, 110); 
     /* border-bottom: .1rem solid var(--main-color); */
     border-bottom: .1rem solid  rgb(163, 131, 88); 
     padding-bottom: .5rem;
 } 
-/* páginas */
 /* ----------------------------------------------------------------- */
-/* icones */
-/* icones da pagina principal */
+/* icones *//* icones da pagina principal */
 .icones{
     display: flex;
     align-items: center;
@@ -115,7 +106,6 @@ section{
     transform: translateY(-5px);
     color:  rgb(163, 131, 88); 
 }
-/* icones */
 /* ------------------------------------------------- */
 /* icone de pesquisa */
  .header .search-form{
@@ -149,34 +139,8 @@ section{
 .header .search-form label:hover{
     color: var(--main-color);
 }
-/* icone de pesquisa */
-/* home  arrumar */
-/* .home{
-    min-height: 100vh;
-    min-width: 50vw;
-    display: flex;
-    align-items: center;
-    background:url(../img/grões_de_café.png)no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.home .content{
-    max-width: 60rem;
-}
-.home .content-h3{
-    font-size: 6rem;
-    text-transform: uppercase;
-    color: aliceblue;
-}
-.home .content p{
-    font-size: 1rem;
-    font-weight: lighter;
-    line-height: 1.8;
-    padding: 1rem 0;
-    color: aliceblue;
-}  */
- /* home  arrumar */
  /* -------------------------------------------------------------- */
+ /* menu */
 .menu .box-contanier  .ti_prin h1{
     display: flex; 
     flex-direction: row;
@@ -206,9 +170,6 @@ section{
     font-size: 20px;
     padding: 1rem 0;
 }
-
-
-/* ------------------------------------------------------------------- */
 /* menu - produtos */
 .menu .box-contanier{
     display: grid;
@@ -221,14 +182,17 @@ section{
     text-align: center;
     border: var(--border);
     border-radius: 20px;
+    border: 2px solid black;
+
 }
 .menu .box-contanier .btn{
     background-color:  transparent;
     border-radius: 10px;
 }
- /* .btn:hover{
-    background-color: aliceblue;
-} */
+.menu .box-contanier .btn:hover{
+    background-color: rgb(156, 126, 86); ;
+    border-radius: 10px;
+}
 
 .menu .box-contanier .box img{
     height: 10rem;
@@ -248,7 +212,7 @@ section{
     text-decoration: line-through;
 }
 .menu .box-contanier .box:hover{
-    background: rgb(185, 152, 110); 
+    background: rgb(190, 157, 114); 
 }
 .menu .box-contanier .box:hover > *{
     color: var(--black);
@@ -260,7 +224,7 @@ section{
     padding: 15px 70px;
     font-size: 16px;
     font-weight: bolder;
-    background: transparent;
+    /* background: transparent; */
     border: solid 2px black;
     /* transition: all.55 ease; */
     color: black;

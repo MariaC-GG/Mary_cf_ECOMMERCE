@@ -7,7 +7,8 @@
     list-style: none;
 }
 body{
-    background-color:rgba(228, 177, 127, 0.671);
+    /* background-color:rgba(228, 177, 127, 0.671); */
+    background:url(../img/fundo_café_3_3.jpg)no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +27,7 @@ body{
     position: relative;
     width: 450px;
     height: 490px;
-    background: transparent;
+    background: rgba(202, 147, 92, 0.671);
     border: 2px solid black;
     border-radius: 20px;
     backdrop-filter: bluer(20px);
