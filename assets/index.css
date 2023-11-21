@@ -163,25 +163,6 @@ section{
     color: #000;
     font-weight: bolder;
 }
-
-/* home  arrumar */
-/* menu - produtos */
-/* .menu .box-contanier{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
-    border-radius: 20px;
-}
-.menu .box-contanier .box{
-    padding: 5rem;
-    text-align: center;
-    border: var(--border);
-    border-radius: 20px;
-}
-.menu .box-contanier .btn{
-    background-color: chocolate;
-    border-radius: 10px;
-}
 .menu .box-contanier .box img{
     height: 10rem;
 }
@@ -202,44 +183,13 @@ section{
 .menu .box-contanier .box:hover{
     background: white;
 }
-.menu .box-contanier .box:hover > *{
+.menu .box-contanier .box:hover{
     color: var(--black);
-}*/
+}
 /* --------------------------------------------------- */
-/* footer */
-.links{
-    display: flex;
-    flex-wrap: wrap;
-}
-footer{
-    padding: 30px 0;
-    margin: 30px;
-}
-.col{
-    width: 25%;
-}
-.col h4{
-    font-size: 2.5rem;
-    color: var(--tex-color);
-    margin-bottom: 25px;
-    position: relative;
-}
-.col h4::before{
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 50px;
-    left: 0;
-    bottom: -8px;
-    background: var(--main-color);
-}
-.col a{
-    font-size: 20px;
-    color:#000;
-}
-.col ul li:not(:last-child){
-    margin-bottom: 15px;
-}
+
+
+
 
 
 
@@ -247,7 +197,7 @@ footer{
 
 
 /* media queries */
-@media (max-width:991px){
+/* @media (max-width:991px){
     html{
         font-size: 55%;
     }
@@ -300,4 +250,4 @@ footer{
         font-size: 50%;
     }
     
-}
+} */

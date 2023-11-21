@@ -1,0 +1,50 @@
+/* footer */
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col p{
+    font-size: 20px;
+}
+.col i{
+    font-size: 40px;
+}
+footer{
+    padding: 30px 0;
+    background: rgb(190, 157, 114); 
+}
+.col{
+    width: 28%;
+}
+/* .col p:hover{
+    color: rgb(156, 123, 80);
+    
+} */
+.col h4{
+    font-size: 2.9rem;
+    color: var(--tex-color);
+    margin-bottom: 15px;
+    position: relative;
+}
+.col h4::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    left: 0;
+    bottom: -8px;
+    background: var(--main-color);
+}
+.col a{
+    font-size: 20px;
+    color:#000;
+}
+.col ul li:not(:last-child){
+    margin-bottom: 15px;
+}
+#final{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.1rem;
+}
