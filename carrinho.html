@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/header-footer.css">
+    <script src="./assets/carrinho.js" defer></script>
+    <script src="./assets/itens-car.js" defer></script>
+    <!-- <script src="index.js" defer></script> -->
+    <!-- icones de graça link  -->
+    <link rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>MaryCoffe</title>
+</head>
+<body>
+    <header class="header">
+        <!-- logo -->
+        <a href="#" class="logo">
+            <i class='bx bxs-coffee-bean'>MaryCoffe</i>
+            <!-- <i class='bx bxs-coffee-bean'>Marycoffe</i> -->
+        </a>
+        <!-- links da página -->
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">Sobre</a> 
+            <a href="products.html">Produtos</a>
+            <li><a href="carrinho.html"><i class='bx bx-cart'></i></li>               
+        </nav>
+    </header>
+    <main>
+        <h1>Carrinho de Compras</h1>
+        <ul id="itens-carrinho">
+            
+        </ul>
+        <p>
+        &nbsp;&nbsp;&nbsp;Quantidade: <span id="qtde-total">0</span>
+        &nbsp;&nbsp;&nbsp;Total: R$ <span id="total-carrinho">0.0</span>
+        </p>
+          
+
+        <br>
+        <button id="limpar-carrinho">Limpar Carrinho</button>
+       
+    </main>
+    <footer>
+        <div class="links">
+
+            <div class="col">
+                <h4>Endereço</h4>
+                <p>Avenida SC-410, 189, Centro, Tijucas - SC</p>
+                <h4> E-mail:</h4>
+                 <p> MaryCoffe@cafe_ecom.com.br</p>
+                <h4>Telefone:</h4>
+                <p>(48) 3263-1328</p>
+            </div>
+    
+            <div class="col">
+                <h4>Acesso rápido</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="products.html">Produto</a></li>
+                </ul>
+            </div>
+    
+            <div class="col">
+                <h4>Siga-nos nas
+                    nossas Redes Sociais</h4>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-instagram' id="insta"></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp' id="whats"></i></a>
+                </div>
+            </div>
+    
+        </div>
+        <p id="final">Todos os direitos reservados &copy; <span>2023</span></p>
+    </footer>
+</body>
+</html>
