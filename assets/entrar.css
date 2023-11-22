@@ -23,7 +23,7 @@ body{
 }
 
 
-.cadastro{
+.entrar{
     position: relative;
     width: 450px;
     height: 490px;
@@ -36,11 +36,11 @@ body{
     align-items: center;
     overflow: hidden;
 }
-.cadastro .caixa_login{
+.entrar .caixa_login{
     width: 100%;
     padding: 40px;
 }
-.cadastro .fechar-tela-x{
+.entrar .fechar-tela-x{
     position: absolute;
     top: 0;
     right: 0;

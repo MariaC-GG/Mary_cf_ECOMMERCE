@@ -1,11 +1,8 @@
 /* principais */
 :root{
-    /* --main-color:#d3ad7f; */
     --main-color:#0f0e0d;
     --black:var(--black)
 }
-
-
 *{
     font-family: 'Times New Roman', Times, serif;
     margin: 0; padding: 0;
@@ -15,7 +12,7 @@
     text-transform: capitalize;
     transition: .2s linear;
 }
-
+/* ================================== */
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -30,10 +27,9 @@ html::-webkit-scrollbar-track{
 }
 html::-webkit-scrollbar-thumb{
     background: rgb(17, 14, 14);
-    /* background: white; */
     border-radius: 5rem;
 }
-
+/* -========================================== */
 body{
     background: rgba(228, 177, 127, 0.671);
     /* background: rgba(201, 151, 102, 0.671); */
@@ -42,7 +38,7 @@ body{
 section{
     padding: 2rem 7%;
 }
-/* principais */
+
 /* header principal */
 .header{
     background: rgb(143, 108, 70);
@@ -56,8 +52,6 @@ section{
     top: 0; left: 0; right: 0;
     z-index: 1000;
 }
-/* header principal */
-/* --------------------------------------- */
 /* logo café */
 .header .logo{
     /* height: 10rem; */
@@ -75,8 +69,6 @@ section{
     font-size: 32px;
     margin-right: 5px;
 }
-/* logo café */
-/* ----------------------------------------------- */
 /* páginas */
  .header .navbar a{
     margin: 0 1rem;
@@ -90,16 +82,13 @@ section{
     border-bottom: .1rem solid  rgb(114, 89, 56); 
     padding-bottom: .5rem;
 } 
-/* páginas */
-/* --------------------------------------------------------------- */
-/* icones */
+
 /* icones da pagina principal */
 .icones{
     display: flex;
     align-items: center;
 }
 .icones i{
-    /* color: aliceblue; */
     color: #0f0e0d;
     font-weight: bolder;
     margin-right: 25px;
@@ -112,13 +101,12 @@ section{
     color:  rgb(107, 92, 71); 
 }
 
-/* home  arrumar */
+/* home */
 .home{
     min-height: 100vh;
     min-width: 50vw;
     display: flex;
     align-items: center;
-    /* background:url(../img/grões_de_café.png)no-repeat; */
     background:url(../img/coffee_rorozoa_3_07.jpg)no-repeat;
     background-size: cover;
     background-position: center;
@@ -144,8 +132,8 @@ section{
     color: #0f0e0d;
 
 }
-/* botão entrar */
 
+/* botão entrar */
 .btn{
     display: inline-block;
     justify-content: space-between;

@@ -36,7 +36,7 @@ body{
     align-items: center;
     overflow: hidden;
 }
-.cadastro .caixa_login{
+.cadastro .caixa_cadas{
     width: 100%;
     padding: 40px;
 }
@@ -55,7 +55,7 @@ body{
     cursor: pointer;
 }
 
-.caixa_login h2{
+.caixa_cadas h2{
     font-size: 2rem;
     color: black;
     text-align: center;

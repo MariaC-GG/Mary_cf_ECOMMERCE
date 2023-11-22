@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links para o css e js -->
     <link rel="stylesheet" href="./assets/cadastro.css">
     <!-- link do google fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <!-- link dos icones -->
     <link rel="stylesheet"
      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-  <!-- or -->
+             <!-- or -->
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <title>MaryCoffe</title>
 </head>
 <body>
 <header>
-    <!-- Cadastro -->
-<div class="cadastro">
-    <!-- botão de voltar -->
-    <button onclick="location.href='index.html'" type="submit" class="btn-voltar"><span class="material-symbols-outlined" >arrow_back_ios</span></button>
-     <!-- botão de voltar -->
+    <!-- header -->
+    <div class="cadastro">
+        <!-- botão de voltar -->
+        <button onclick="location.href='index.html'" type="submit" class="btn-voltar"><span class="material-symbols-outlined" >arrow_back_ios</span></button>
+        <!-- botão de excluir o que foi escrito -->
         <span class="fechar-tela-x"><i class='bx bx-x'></i></span>
-        <div class="caixa_login">
+        <!-- caixa cadastra -->
+        <div class="caixa_cadas">
             <h2>Cadastrar</h2>
             <form action="#">
                 <div class="caixa-input">
@@ -31,29 +33,40 @@
                     <input type="username" required>
                     <label>Nome</label>
                 </div>
+
                 <div class="caixa-input">
                     <span class="iconnes"><i class='bx bxs-envelope' ></i></span>
                     <input type="email" required>
                     <label>Email</label>
                 </div>
+
                 <div class="caixa-input">
                     <span class="iconnes"><i class='bx bxs-lock-alt'></i></span>
                     <input type="password" required>
                     <label>Senha</label>
                 </div>
+
                 <div class="caixa-input">
+                    <span class="iconnes"><i class='bx bxs-phone'></i></span>
+                    <input type="address" required>
+                    <label>Telefone</label>
+                </div>
+
+                <!-- <div class="caixa-input">
                     <span class="iconnes"><i class='bx bxs-location-plus'></i></span>
                     <input type="address" required>
                     <label>Endereço</label>
-                </div>
+                </div> -->
+
                 <div class="aceitar-politica">
                     <label><input type="checkbox">Estou de acordo com os termos e condições</label>
                 </div>
+                <!-- botão de feito o cadastro -->
                 <button onclick="location.href='products.html'" type="submit" class="btn" >Cadastrar</button>
                 <!-- <button onclick="location.href='products.html'">Home</button> -->
             </form>
         </div>
- </div>
+    </div>
 </header>
 </body>
 </html>

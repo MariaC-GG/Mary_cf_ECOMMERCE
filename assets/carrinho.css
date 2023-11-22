@@ -1,0 +1,109 @@
+/* principais */
+:root{
+    /* --main-color:#d3ad7f; */
+    --main-color:#0f0e0d;
+    --black:var(--black)
+}
+
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background: rgb(17, 14, 14);
+    /* background: white; */
+    border-radius: 5rem;
+}
+
+body{
+    background: rgba(228, 177, 127, 0.671);
+    /* background: rgba(201, 151, 102, 0.671); */
+    /* background: rgba(0, 0, 0, 0.671); */
+}
+/* header principal */
+.header{
+    background: rgb(143, 108, 70);
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+/* header principal */
+/* --------------------------------------- */
+/* logo café */
+.header .logo{
+    /* height: 10rem; */
+    display: flex;
+    align-items: center;
+    /* color: var(--tex-color); */
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+.logo i{
+    /* color: var(--main-color); */
+    color: black;
+    font-weight: bolder;
+    font-size: 32px;
+    margin-right: 5px;
+}
+/* logo café */
+/* ----------------------------------------------- */
+/* páginas */
+ .header .navbar a{
+    margin: 0 1rem;
+    font-size: 2.3rem;
+    font-weight: bolder;
+    color: rgb(12, 11, 10);
+    font-weight: bolder;
+ } 
+.header .navbar a:hover{
+     color: rgb(77, 62, 44); 
+    border-bottom: .1rem solid  rgb(114, 89, 56); 
+    padding-bottom: .5rem;
+} 
+/* páginas */
+/* --------------------------------------------------------------- */
+/* icones */
+/* icones da pagina principal */
+.icones{
+    display: flex;
+    align-items: center;
+}
+.icones i{
+    /* color: aliceblue; */
+    color: #0f0e0d;
+    font-weight: bolder;
+    margin-right: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.icones i:hover{
+    transform: translateY(-5px);
+    color:  rgb(107, 92, 71); 
+}

@@ -1,0 +1,19 @@
+carrinho -
+reduz mercadoria -
+
+PRODUTOS:
+cadastro dos produtos -
+atualização -
+apagar - 
+listar -
+
+CLIENTE:
+listar
+cadastrar
+atualizar/ não pode deixar em branco e não pode alterar o email
+Obrigatório ter email e telefone
+
+PARA CONSEGUIR UM A:
+login - brcypt
+gráfico dos produtos
+

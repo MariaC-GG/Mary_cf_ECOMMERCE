@@ -37,8 +37,7 @@ body{
 section{
     padding: 2rem 7%;
 }
-/* principais */
-/* ------------------------------------------------------------ */
+
 /* header principal */
 .header{
     background: rgb(240, 215, 189);
@@ -51,7 +50,6 @@ section{
     top: 0; left: 0; right: 0;
     z-index: 1000;
 }
-/* -------------------------------------------------------- */
 /* logo café */
 .header .logo{
     /* height: 10rem; */
@@ -63,36 +61,31 @@ section{
     font-weight: bold;
 }
 .logo i{
-    /* color: var(--main-color); */
     color: black;
     font-weight: bolder;
     font-size: 32px;
     margin-right: 5px;
 }
-/* --------------------------------------------------------- */
+
 /* páginas */
  .header .navbar a{
     margin: 0 1rem;
     font-size: 2.3rem;
     font-weight: bolder;
     color: rgb(12, 11, 10);
-     /* color: antiquewhite;  */
  } 
 .header .navbar a:hover{
-    /* color: var(--main-color); */
-     color: rgb(184, 152, 110); 
-    /* border-bottom: .1rem solid var(--main-color); */
+    color: rgb(184, 152, 110); 
     border-bottom: .1rem solid  rgb(163, 131, 88); 
     padding-bottom: .5rem;
 } 
-/* ----------------------------------------------------------------- */
-/* icones *//* icones da pagina principal */
+
+/* icones da pagina produto */
 .icones{
     display: flex;
     align-items: center;
 }
 .icones i{
-    /* color: aliceblue; */
     color: #0f0e0d;
     margin-right: 25px;
     font-size: 25px;
@@ -103,7 +96,7 @@ section{
     transform: translateY(-5px);
     color:  rgb(163, 131, 88); 
 }
-/* ------------------------------------------------- */
+
 /* icone de pesquisa */
  .header .search-form{
     position: absolute;
@@ -136,7 +129,7 @@ section{
 .header .search-form label:hover{
     color: var(--main-color);
 }
- /* -------------------------------------------------------------- */
+
  /* menu */
 .menu .box-contanier  .ti_prin h1{
     display: flex; 
@@ -184,7 +177,7 @@ section{
 }
 .menu .box-contanier .btn{
     background-color:  transparent;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .menu .box-contanier .btn:hover{
     background-color: rgb(156, 126, 86); ;
@@ -221,9 +214,7 @@ section{
     padding: 15px 70px;
     font-size: 16px;
     font-weight: bolder;
-    /* background: transparent; */
     border: solid 2px black;
-    /* transition: all.55 ease; */
     color: black;
 }
 .btn:hover{
@@ -233,16 +224,6 @@ section{
     font-weight: bolder;
 }
 /* --------------------------------------------------- */
-
-
-
-
-
-
-
-
-
-
 
 
 
